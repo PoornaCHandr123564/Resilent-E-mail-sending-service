@@ -1,0 +1,26 @@
+# Email Sending Service
+
+## Overview
+
+This project implements a resilient email sending service using JavaScript. It supports retry logic with exponential backoff, fallback between providers, idempotency, rate limiting, and basic status tracking.
+
+## Features
+
+- Retry mechanism with exponential backoff
+- Fallback between two mock email providers
+- Idempotency to prevent duplicate emails
+- Basic rate limiting
+- Status tracking
+- (Bonus) Circuit breaker pattern
+- (Bonus) Simple logging
+- (Bonus) Basic queue system
+
+## Setup
+
+1. **Install Dependencies**
+   ```bash
+   npm install
+   ```
+   2.To Run these
+   '''bash
+   npm test
